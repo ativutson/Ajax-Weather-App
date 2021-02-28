@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script defer src="./js/script.js"></script>
+    <title>Ajax Weather Lab</title>
+</head>
+<body>
+    <h1>Ajax Weather App</h1>
+    <main>
+        <div style="display: flex;">
+            <p>Weather for:</p>
+            <p style="justify-content: space-evenly;text-indent: 5px;" id="city"></p>
+        </div>
+        <div style="display: flex;">
+            <p>Temperature:</p>
+            <p style="justify-content: space-evenly;text-indent: 5px;" id="temp"></p>
+            <p style="text-indent: 5px;">&#8457</p>
+        </div>
+        <div style="display: flex;">
+            <p>Feels like:</p>
+            <p style="justify-content: space-evenly;text-indent: 5px;" id="feel"></p>
+            <p style="text-indent: 5px;">&#8457</p>
+        </div>      
+        <div style="display: flex;">
+            <p>Condition:</p>
+            <p style="justify-content: space-evenly;text-indent: 5px;" id="weather"></p>
+        </div>
+    </main>
+    <form>
+        <input type="text" placeholder="e.g. New York">
+        <input type="submit" value="Get Weather Info" />
+    </form>
+    
+</body>
+</html>
